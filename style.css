@@ -1,0 +1,122 @@
+.intro{
+  font-size: 60px;
+  display: block;
+  font-weight: 700;
+  letter-spacing: 5px;
+  animation: text 3s 1;
+}
+.font-size{
+    font-size: 60px;
+    display: block;
+}
+@keyframes text{
+   0%{
+     color:white;
+     margin-bottom: -40px;
+   }
+   30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+   }
+   85%{
+     letter-spacing: 8px;
+     margin-bottom: -40px;
+   }
+}
+.cut-sentence{
+    text-decoration: line-through;
+    font-size: 30px;
+
+}
+.card-height{
+    height: 400px;
+}
+.sign{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+  }
+  .about{
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  .gradient-bg{
+    background-image: linear-gradient()
+  }
+  .parallax {
+    /* The image used */
+    background-image: url('images/bg.jpg') ;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+.keyboard{
+    margin-top: 20px;
+    height: 100%;
+      width: 60%; 
+      transition: transform .2s;
+}
+.keyboard:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  /* *,
+*::before,
+*::after {
+	box-sizing: border-box;
+} */
+
+.key-board{
+	position: relative;
+	display: inline-block;
+	font-family: "Great Vibes", serif;
+	font-size: calc(1.5em + 5vw);
+	text-decoration: none;
+	color: rgb(var(--link-color));
+}
+.key-board:hover::after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100%;
+
+	/* Adjust height and bottom values to work with selected font */
+	height: .05em;
+	bottom: .1em;
+
+	/* Create gradient */
+	background-image: linear-gradient(
+		to right,
+		transparent 0%,
+		rgba(var(--link-color), .6) 30%,
+		rgba(var(--link-color), .7) 50%,
+		rgba(var(--link-color), .6) 70%,
+		transparent 100%
+	);
+
+	/* Set-up fade-in animation */
+	opacity: 0;
+	animation: fadeIn 400ms ease-out forwards;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+	100% {
+		opacity: 1;
+	}
+}
+.color-blue{
+    color: aqua;
+}
+.section-header {
+    font-family: Inter,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+    font-size: 160px;
+    font-weight: 800;
+    text-align: left;
+    z-index: 10;
+    position: relative;
+    line-height: 0.6em;
+    pointer-events: none;
+    flex: 1 100%;
+}

@@ -1,211 +1,280 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-	<title>My Portfolio</title>
-    <link rel="stylesheet" href="index.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    ​
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    ​
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    ​
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="style.css">
+
+    <!--Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Telex&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <title>port</title>
+    ​
 </head>
+
 <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">About</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#Education">Education <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="Projects" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                             Projects
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Wonder Woman Profile</a>
-                            <a class="dropdown-item" href="#">TypeWriter</a>
-                            <a class="dropdown-item" href="#">Expense Manager</a>
-                            <div class="dropdown-divider"></div>
-                        </div>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-        <div class="jumbotron" style="background-color: silver">
-            <div class="float-left">
-            <img src="images/profile.jpg" alt="">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg fixed-top color-blue bg-dark">
+            <a class="navbar-brand logo_h" href="final.html"><img src="images/logo.png" style="width: 75px;"
+                    alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto color-blue">
+                    <li class="nav-item active"><a class="nav-link color-blue" href="#">ABOUT</a></li>
+                    <li class="nav-item "><a class="nav-link color-blue" href="#Project">PROJECTS</a></li>
+                    <li class="nav-item "><a class="nav-link color-blue" href="#">RESUME</a></li>
+                    <li class="nav-item "><a class="nav-link color-blue" href="#Contact">CONTACT</a></li>
+                </ul>
             </div>
-            <div>         
-            <h3>Hi, This is</h3>
-            <h2 style="color: orangered;">Rahul Pandey</h2>
-            <h3 style="color: blue;">A Full Stack developer</h3> 
-            </div><br><br>
-            <div class="text-left about">
-                <h2>Who Am I?</h2>
-                <p class="increase_font"><strong>I am a fellow Full stack Developer at Masai School</strong> Completed Bachelour of Engineering Degree in year 2019 from <strong>
-                Silicon Institute of Technology</strong> in Computer Science and Engineering branch with 7.78 CGPA.</p>
-                <p class="increase_font">Here In masai School I am getting hands on experience on <strong>frontend and backend technologies.</strong></p>
-            </div> 
-        </div>
-        <div>
-            <div class="text-center allign ">
-                <h2><i>"Website without visitors is like a ship lost in the horizon"</i></h2>
-            </div>
-        </div>
+        </nav>
+    </div>
+    <div class="content-container" style="padding-top: 300px;padding-bottom: 300px;background-color: transparent;"
+        data-content-id="content_9o3vet56p" data-content-type="content-p">
         <div class="container">
-            <div class="container float-left">
-                <h1 class="display-2 text-left"><a id="skills" ></a>Skills</h1>
-                <blockquote class="blockquote text-left">
-                        <p class="mb-0 increase_font ">“Schooling doesn't assure employment but skill does.”</p>
-                        <footer class="blockquote-footer"><cite title="Source Title">Amit Kalantri</cite></footer>
-                      </blockquote><br><br>
-                <h2 class="display-4">My ability to make wise choices in the most valuable skill are-</h2><br>
-                <div class="list-group">
-                    <a href="https://www.w3.org/html/" class="list-group-item list-group-item-primary">HTML[5]</a>
-                    <a href="https://www.javascript.com/" class="list-group-item list-group-item-action list-group-item-secondary">JavaScript</a>
-                    <a href="https://www.w3.org/Style/CSS/Overview.en.html" class="list-group-item list-group-item-action list-group-item-danger">CSS</a>
-                    <a href="#" class="list-group-item list-group-item-action list-group-item-warning">C</a>
-                    <a href="https://www.mysql.com/" class="list-group-item list-group-item-action list-group-item-info">My SQL</a>
-                    <a href="https://getbootstrap.com/" class="list-group-item list-group-item-action list-group-item-light">Bootstrap</a>
-                    <a href="https://reactjs.org/" class="list-group-item list-group-item-dark">React</a><br>
-                    <hr width="110%">
+            <div class="row">
+                <div class="col col-lg-10 col-12">
+                <div data-content-id="content_9o3vet56p" data-paragraph-id="content_9o3vet56p"
+                    data-content-type="content-p" class="wysiwyg-ce no-offset span12">
+                    <p style="text-align: center;" data-font-size="42px" data-line-height="36px"><span
+                            class="bold"><span style="letter-spacing:7px;">
+                                <font face="Raleway regular, Helvetica, Arial, sans-serif">
+                                    <p class="pulse font-size">Hi,<br>This is Rahul</p>
+                                    <h4 class="cut-sentence">Engineer, Developer, Front-End Developer,
+                                        Back-end Developer, Devops, Database Manager</h4>
+                                    <p class=" font-size animated bounceInDown"><b>Full-Stack Developer</b></p>
+                                </font>
+                            </span></span></p>
+                </div>
+                </div>
+                <div class="col-lg-2">
+                    <img src="images/profile.png">
                 </div>
             </div>
-            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="progress-wrap">
-                        <h3>HTML[5]</h3>
-                        <div class="progress">
-                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                <span>80%</span>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="progress-wrap">
-                        <h3>JavaScript</h3>
-                        <div class="progress">
-                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                <span>60%</span>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="progress-wrap">
-                        <h3>CSS</h3>
-                        <div class="progress">
-                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                <span>80%</span>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="progress-wrap">
-                        <h3>C</h3>
-                        <div class="progress">
-                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                <span>70%</span>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="progress-wrap">
-                        <h3>MY SQL</h3>
-                        <div class="progress">
-                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                <span>40%</span>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="progress-wrap">
-                        <h3>Bootstrap</h3>
-                        <div class="progress">
-                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                <span>70%</span>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                    <div class="progress-wrap">
-                        <h3>React</h3>
-                        <div class="progress">
-                             <div class="progress-bar color-1" role="progressbar" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                                <span>80%</span>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <br><br>
+            <h5 class="sign float-right ">Rahul Pandey</h5>
         </div>
-        <div class="container">
-            <div class="container float-left">
-                <h1 class="display-2 text-left"><a id="Education" ></a>Education</h1><br>
-            </div>
-            <div class="card card_border">
-                <h5 class="card-header card_color">BTech</h5>
-                <div class="card-body">
-                    <h5 class="card-title card_color">Completed in May'19 from 'SILICON INSTITUTE OF TECHNOLOGY'</h5>
-                    <p class="card-text">Scored 7.78 GPA </p><br><br>
-                </div>
-            </div><br>
-            <div class="card card_border">
-                    <h5 class="card-header card_color">Intermediate</h5>
+    </div>
+    <di v class="parallax">
+        <!-- <div class="container p-0 m-0 d-flex">
+        <div class="row m-0 p-0 ">
+            <div class="col-12 col-lg-12 m-0 p-0">
+                <div class="card"> -->
+        <div class="card-body">
+            <h1 class="card-text text-center text-light display-3" style="font-family: Telex;"> About Me
+            </h1><br /><br>
+            <h1 class="text-center text-light" style="font-family: 'Handlee', cursive;">
+                Full Stack Enthusiast who loves to spend much of my time on Black&white screen.</h1><br>
+            <h1 class="text-center text-light" style="font-family: 'Handlee', cursive;">
+                I am <br>freaking devotee,<br> addict to code,<br> web crawler<br> from Varanasi-The city of Temples and
+                currently in
+                Bengaluru.
+            </h1>
+            <br>
+            <h1 class="text-center text-light" style="font-family: 'Handlee', cursive;">
+                "Love to Code <br>Cricketer<br>lend an ear on SONGS"</h1>
+        </div>
+    </div>
+    </div>
+    <!-- <div class="col-12 col-lg-3 m-0 p-0">
+                <div class="card bg-info">
+                    <div class="card-header text-center about">
+                        About
+                    </div>
                     <div class="card-body">
-                        <h5 class="card-title card_color">Completed in May'14 from 'CAMBRIAN PUBLIC SCHOOL'</h5>
-                        <p class="card-text">Scored 81.6% </p><br><br>
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-            </div><br>
-                <div class="card card_border">
-                        <h5 class="card-header card_color">Matriculation</h5>
-                        <div class="card-body">
-                            <h5 class="card-title card_color">Completed in May'12 from 'DAV PUBLIC SCHOOL'</h5>
-                            <p class="card-text">Scored 9 GPA </p><br><br>
-                        </div>
-                </div><br>
-        </div>
-        <div class="container">
-                <div class="container float-left">
-                    <h1 class="display-2 text-left"><a id="Projects" ></a>Projects</h1><br>
                 </div>
-                <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                          <h5 class="card-title">Wonder Woman</h5>
-                          <p class="card-text">A dummy web based profile on the Superhero "Wonder Woman".</p>
-                          <a href="https://github.com/RaulB-masai/masai-week-1" class="btn btn-primary">See Here</a>
-                        </div>
-                      </div><br>
-                      
-                      <div class="card text-center" style="width: 18rem;">
-                        <div class="card-body">
-                          <h5 class="card-title">Typewriter</h5>
-                          <p class="card-text">A kind of keyboard which actually works as a keyboard and its functionality.</p>
-                          <a href="https://github.com/RaulB-masai/masai-week-2" class="btn btn-primary">See Here</a>
-                        </div>
-                      </div><br>
-                      
-                      <div class="card text-right" style="width: 18rem;">
-                        <div class="card-body">
-                          <h5 class="card-title">Expense Manager</h5>
-                          <p class="card-text">A Web Portal which keeps the record of all types of income and expenses and also shows the savings.</p>
-                          <a href="https://github.com/RaulB-masai/masai-week-3" class="btn btn-primary">See here</a>
-                        </div>
-                      </div>
+            </div> -->
+    <!-- </div>
+    </div> -->
+    <h2 class="display-3 mt-5 text-center">Projects...</h2>
+    <div class="mt-5"></div>
+    <div class="jumbotron p-0 m-0">
+        <div class="row m-0 p-0">
+            <div class=" col col-12 col-lg-4 m-0 p-0">
+                <div class="card border-0">
+                    <div class="card-body ">
+                        <center>
+                            <div style="height: 95%; width: 95%">
+                                <img src="images/2.png" class="keyboard">
+                            </div>
+                        </center>
+                        <br><br>
+                        <h2 class="text-center" style="font-family: handlee;">WONDER WOMAN</h2>
+                        <p class="card-text text-center">A Website describes about the Super Hero "Wonder Woman",
+                            onlu using Html and inline style tag.
+                        </p>
+                        <br>
+                        <a href="#" style="font-family:'Great Vibes', cursive;" class="text-center">
+                            <h2>Checkout Project</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col col-12 col-lg-4 m-0 p-0">
+                <div class="card border-0">
+                    <div class="card-body ">
+                        <center>
+                            <div style="height: 67%; width: 67%">
+                                <img src="images/1.svg" class="keyboard">
+                            </div>
+                        </center>
+                        <h2 class="text-center" style="font-family: handlee;">TYPEWRITER</h2>
+                        <p class="card-text text-center">Typewriter Which is similar to computer keyboard with a special
+                            functionality
+                            of making the alphabets as CAPITAL.
+                        </p>
+                        <br>
+                        <a href="#" style="font-family:'Great Vibes', cursive;" class="text-center">
+                            <h2>Checkout Project</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col col-12 col-lg-4 m-0 p-0">
+                <div class="card border-0">
+                    <div class="card-body ">
+                        <center>
+                            <div style="height: 96%; width: 96%">
+                                <img src="images/3.png" class="keyboard">
+                            </div>
+                        </center>
+                        <br><br>
+                        <h2 class="text-center" style="font-family: handlee;">EXPENSE CALCULATOR</h2>
+                        <p class="card-text text-center">A dynamic web page which calculates the expenses and income
+                            of an indivisual and display the items on which they expense or source by which they
+                            are earning, and also shows the saving amount.
+                        </p>
+                        <br>
+                        <a href="#" style="font-family:'Great Vibes', cursive;" class="text-center">
+                            <h2>Checkout Project</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="mt-5"></div> -->
+    <div class="jumbotron p-0 m-0">
+        <div class="row m-0 p-0">
+            <div class=" col col-12 col-lg-4 m-0 p-0">
+                <div class="card border-0">
+                    <div class="card-body ">
+                        <center>
+                            <div style="height: 90%; width: 90%">
+                                <img src="images/4.png" class="keyboard">
+                            </div>
+                        </center>
+                        <br><br>
+                        <h2 class="text-center" style="font-family: handlee;">MOVIES DATABASE</h2>
+                        <p class="card-text text-center">A web page which shows the IMDB details of input movie name by
+                            fetching the API from IMDB.
+                        </p>
+                        <br>
+                        <a href="#" style="font-family:'Great Vibes', cursive;" class="text-center">
+                            <h2>Checkout Project</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col col-12 col-lg-4 m-0 p-0">
+                <div class="card border-0">
+                    <div class="card-body ">
+                        <center>
+                            <div style="height: 90%; width: 90%">
+                                <img src="images/5.png" class="keyboard">
+                            </div>
+                        </center>
+                        <br><br>
+                        <h2 class="text-center" style="font-family: handlee;">EMPLOYEES DETAILS</h2>
+                        <p class="card-text text-center">A web page which fetch the details of employees through API
+                            and prints the result in different-different sorted order.
+                        </p>
+                        <br>
+                        <a href="#" style="font-family:'Great Vibes', cursive;" class="text-center">
+                            <h2>Checkout Project</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col col-12 col-lg-4 m-0 p-0">
+                <div class="card border-0">
+                    <div class="card-body ">
+                        <center>
+                            <div style="height: 90%; width: 90%">
+                                <img src="images/6.png" class="keyboard">
+                            </div>
+                        </center>
+                        <br><br>
+                        <h2 class="text-center" style="font-family: handlee;">MASAI SCHOOL</h2>
+                        <p class="card-text text-center">A dummy website of MASAI SCHOOL itself in which all pages of
+                            masai school
+                            whould be there.
+                        </p>
+                        <br>
+                        <a href="#" style="font-family:'Great Vibes', cursive;" class="text-center">
+                            <h2>Checkout Project</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="display-3 mt-5 text-center">Skills...</h2>
+    <div class="mt-5"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-lg-6">
+                <h4 class="bar-gradient">Html</h4>
+                <div class="progress">
+                    <div class="progress-bar bar-gradient" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                  </div><br/>
+                  <h4>css</h4>
+                <div class="progress">
+                    <div class="progress-bar bar-gradient" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div><br/>
+                  <h4>Javascript</h4>
+                <div class="progress">
+                    <div class="progress-bar bar-gradient" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                  </div><br/>
+                  <h4>bootstrap</h4>
+                <div class="progress bar-gradient">
+                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div><br/>
+                
+            </div>
+        </div>
+    </div>
+    <br><br> 
 </body>
+
 </html>
